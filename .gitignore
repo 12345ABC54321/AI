@@ -1,0 +1,28 @@
+# =========================================
+#         ESP-IDF / CMake build
+# =========================================
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# SDK config (ne jamais commit si projet solo)
+sdkconfig
+sdkconfig.old
+
+# =========================================
+#         Artefacts binaires
+# =========================================
+*.o
+*.a
+*.log
+*.elf
+*.bin
+*.map
+
+# =========================================
+#         JetBrains / VSCode
+# =========================================
+.vscode/
+.idea/
