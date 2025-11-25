@@ -19,5 +19,7 @@
     "*.dbclient-js": "javascript",
     "freertos.h": "c",
     "data_collection.h": "c"
-  }
+  },
+  "idf.flashType": "UART",
+  "idf.portWin": "COM3"
 }
