@@ -18,7 +18,9 @@
   "files.associations": {
     "*.dbclient-js": "javascript",
     "freertos.h": "c",
-    "data_collection.h": "c"
+    "data_collection.h": "c",
+    "gpio.h": "c",
+    "adc_oneshot.h": "c"
   },
   "idf.flashType": "UART",
   "idf.portWin": "COM3"

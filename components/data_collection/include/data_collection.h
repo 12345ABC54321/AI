@@ -9,8 +9,8 @@
 #define NUM_GESTURES       30    // Nombre de gestes total à capturer
 
 // --- GPIO / ADC Joystick ---
-#define JOYSTICK_X_CHANNEL ADC_CHANNEL_6   // GPIO 34
-#define JOYSTICK_Y_CHANNEL ADC_CHANNEL_7   // GPIO 35
+#define JOYSTICK_X_CHANNEL ADC_CHANNEL_5   // GPIO 32
+#define JOYSTICK_Y_CHANNEL ADC_CHANNEL_6   // GPIO 33
 
 // --- Buffers stockant les valeurs capturées ---
 // Format : gesture[g][sample[i]]
