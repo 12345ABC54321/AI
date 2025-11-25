@@ -4,8 +4,7 @@
 extern "C" void app_main(void) {
     // collect();
 
-    joystick_init();
-    tflm_init();
+    ai_init();
 
     int gesture_id = 0;
 

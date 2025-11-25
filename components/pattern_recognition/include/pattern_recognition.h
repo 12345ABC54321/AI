@@ -34,6 +34,5 @@ extern TfLiteTensor *output_tensor;
 // ==================================================
 void ai_init(void);                       // Joystick + TFLM init
 void capture_gesture_into_input(void);    // Lit 50 samples et remplit input_tensor->data.f
-int ai_predict(void);                     // Lance interpreter->Invoke() et retourne la classe
 
 #endif // PATTERN_RECOGNITION_H
