@@ -17,6 +17,7 @@
   ],
   "files.associations": {
     "*.dbclient-js": "javascript",
-    "freertos.h": "c"
+    "freertos.h": "c",
+    "data_collection.h": "c"
   }
 }
